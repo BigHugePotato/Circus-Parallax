@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+* {
+  font-family: "Pacifico", cursive;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f4ff;
+  overflow-x: hidden;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 2em;
+  color: red;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: red;
+  padding: 6px 15px;
+  border-radius: 20px;
+  margin: 0 10px;
+  font-weight: 640;
+}
+.nav-bar a:hover,
+.nav-bar .active {
+  background-color: blue;
+  color: white;
+}
+
+.parallax {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+  overflow: hidden;
+}
+#text {
+  font-size: 5em;
+  color: rgb(189, 121, 32);
+  position: absolute;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  padding-bottom: 400px;
+}
+
+.parallax img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 150vh;
+}
+.parallax #cloud2 {
+  width: 80%;
+  height: auto;
+}
+.parallax #cloud3 {
+  width: 50%;
+  height: auto;
+}
+.parallax #cloud1 {
+  width: 60%;
+  left: 300px;
+  top: 300px;
+  height: auto;
+}
+.parallax #cloud4 {
+  width: 50%;
+  left: 400px;
+  height: auto;
+}
+.parallax #cloud5 {
+  width: 50%;
+  left: 400px;
+  height: auto;
+}
+
+main {
+  position: relative;
+  padding-top: 500px;
+  height: 150vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.main-right {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.boxes h4 {
+  font-size: x-large;
+}
+.boxes p {
+  font-size: medium;
+}
