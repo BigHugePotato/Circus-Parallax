@@ -25,12 +25,12 @@ header {
 
 .logo {
   font-size: 2em;
-  color: red;
+  color: rgb(189, 121, 32);
 }
 
 .nav-bar a {
   text-decoration: none;
-  color: red;
+  color: rgb(189, 121, 32);
   padding: 6px 15px;
   border-radius: 20px;
   margin: 0 10px;
@@ -42,20 +42,26 @@ header {
   color: white;
 }
 
+
+
+
+
+
+
+
+
 .parallax {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 150vh;
   overflow: hidden;
 }
 #text {
-  font-size: 5em;
+  font-size: 6em;
   color: rgb(189, 121, 32);
   position: absolute;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  padding-bottom: 400px;
+  left: 35%;
+  top: 20%;
 }
 
 .parallax img {
@@ -65,37 +71,70 @@ header {
   width: auto;
   height: 150vh;
 }
-.parallax #cloud2 {
-  width: 80%;
+.parallax #cloud1 {
+  width: 50%;
+  left: 0%;
+  top: 10%;
   height: auto;
+}
+.parallax #cloud2 {
+  width: 60%;
+  height: auto;
+  top: 18%;
+  left: 40%;
 }
 .parallax #cloud3 {
   width: 50%;
   height: auto;
+  top: 63%;
+  left: 10%;
 }
-.parallax #cloud1 {
-  width: 60%;
-  left: 300px;
-  top: 300px;
-  height: auto;
-}
+
 .parallax #cloud4 {
-  width: 50%;
-  left: 400px;
+  width: 80%;
+  top: 0%;
+  left: 50%;
   height: auto;
 }
 .parallax #cloud5 {
-  width: 50%;
-  left: 400px;
+  width: 40%;
+  top: 20%;
+  left: 0%;
   height: auto;
 }
 
+
+
+
+
 main {
-  position: relative;
-  padding-top: 500px;
-  height: 150vh;
+  padding-top: 0px;
+  height: 100vh;
+  background-image: url(imgs/tent-low-res.jpg);
+  background-size: cover;
+  background-position: center;
+  image-rendering: optimizeSpeed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-box h1{
+  font-size: 4em;
+  color: rgb(189, 121, 32);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 0px;
 }
 
+.text-box h2{
+  font-size: 2em;
+  color: rgb(189, 121, 32);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
 .container {
   display: flex;
   flex-direction: row;
