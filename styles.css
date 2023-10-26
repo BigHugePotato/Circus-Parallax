@@ -135,18 +135,24 @@ main {
   color: rgb(189, 121, 32);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
-.container {
+main .container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  gap: 15px;
 }
 
+.main-left {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  justify-content: center;
+}
 .main-right {
   display: flex;
   gap: 15px;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
-  flex-direction: row;
 }
 
 .boxes h4 {
@@ -154,4 +160,13 @@ main {
 }
 .boxes p {
   font-size: medium;
+}
+.boxes{
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+}
+.boxes img{
+  width: 30%;
+  height: auto;
 }
