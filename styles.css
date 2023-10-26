@@ -165,6 +165,7 @@ main .container {
   border: 2px solid black;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .boxes img{
   width: 30%;
