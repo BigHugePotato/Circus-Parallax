@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap");
 * {
   font-family: "Pacifico", cursive;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-p{
-  font-family: 'Montserrat', sans-serif;
+p {
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
 }
 
@@ -44,14 +44,6 @@ header {
   background-color: blue;
   color: white;
 }
-
-
-
-
-
-
-
-
 
 .parallax {
   position: relative;
@@ -106,8 +98,6 @@ header {
   height: auto;
 }
 
-
-
 main {
   padding-top: 0px;
   height: 150vh;
@@ -119,19 +109,19 @@ main {
   flex-direction: column;
   align-items: center;
 }
-.text-box{
+.text-box {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.text-box h1{
+.text-box h1 {
   font-size: 4em;
   color: rgb(189, 121, 32);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   padding: 0px;
 }
 
-.text-box h2{
+.text-box h2 {
   font-size: 2em;
   color: rgb(189, 121, 32);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
@@ -142,7 +132,6 @@ main .container {
   gap: 15px;
   min-height: 500px;
   margin-top: 50px;
-
 }
 
 .main-left {
@@ -164,7 +153,7 @@ main .container {
 .boxes p {
   font-size: medium;
 }
-.boxes{
+.boxes {
   background-color: aliceblue;
   border-radius: 5px;
   max-width: 600px;
@@ -178,17 +167,17 @@ main .container {
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
 }
 
-.boxes img{
+.boxes img {
   max-width: 40%;
   height: auto;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-.text-in-box{
+.text-in-box {
   padding: 15px;
 }
 
-footer{
+footer {
   background-color: aliceblue;
   display: flex;
   justify-content: center;
@@ -196,10 +185,9 @@ footer{
   gap: 30px;
   height: 30px;
 }
-footer a{
+footer a {
   text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    color: black;
-
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: black;
 }
